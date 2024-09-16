@@ -1,6 +1,8 @@
 public class App {
-    public int add(int a, int b) {
+    public float addMe(float a, float b) {
         return a + b;
     }
-
+    public float subMe(float a, float b) {
+        return a - b;
+    }
 }

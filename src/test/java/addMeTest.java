@@ -4,9 +4,14 @@ import static org.junit.Assert.assertEquals;
 
 public class addMeTest {
 
-    App newApp = new App();
+    App app = new App();
+
     @Test
-    public void testAdd() {
-        assertEquals(5, newApp.add(2, 3));
+    public void addMeTest(){
+        assertEquals(12.0, app.addMe(11,1), 0.001);
+    }
+    @Test
+    public void subMeTest(){
+        assertEquals(10.0, app.subMe(11,1),0.0001);
     }
 }
